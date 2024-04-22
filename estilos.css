@@ -1,0 +1,165 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+nav {
+    background-color: rebeccapurple;
+    padding: 10px 0;
+    box-shadow: 5px 5px 10px gray;
+
+}
+
+.titulo{
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    padding: 1px;
+    
+
+}
+
+.titulobody:hover{
+    color: rgb(206, 128, 27);
+}
+
+
+ul {
+    /* Quita las viñetas de la lista */
+    list-style-type: none;
+    /* Apretamos los elementos lo más posible a los márgenes */
+    margin: 20px;
+    padding: 0;
+}
+
+li {
+    /* Hace que los elementos se muestren horizontalmente */
+    display: inline-block;
+    /* Genera un espacio hacia la derecha */
+    padding: 0 8px;
+}
+
+a {
+    color: white;
+    /* quita el subrayado de los a href */
+    text-decoration: none;
+}
+
+a:hover {
+    transition-duration: .7s;
+    font-size: 18px;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"] + label {
+    position: absolute;
+    right: 10px;
+    color: blue;
+}
+
+.titulobody{
+    font-weight: bold;
+    padding: 10px;
+    padding-left: 70px;
+}
+
+.lorem{
+    font-size: 19px;
+    margin: 10px;
+}
+
+.container{
+    background-color: mediumslateblue;
+    border-radius: 80px;
+    margin-left: 90px;
+    margin-right: 90px;
+    justify-content: center;
+    height: 320px;
+
+
+}
+
+ .web {
+   display: inline-block;
+   position: static;
+   text-align: center;
+   width: 300px;
+   height: 250px;
+   background-color: blue;
+   margin-left: 250px;
+   border-radius: 10px;
+   margin-top: 30px;
+   
+}
+.web:hover {
+    transition-duration: .7s;
+    width: 350px;
+    height: 270px;
+
+}
+.movil:hover {
+    transition-duration: .7s;
+    width: 350px;
+    height: 270px;
+}
+.back:hover {
+    transition-duration: .7s;
+    width: 350px;
+    height: 270px;
+}
+.movil {
+    display: inline-block;
+    position: static;
+    text-align: center;
+    width: 300px;
+    height: 250px;
+    background-color: green;
+    margin-left: 100px;
+    border-radius:15px;
+    margin-top: 30px;
+    
+ }
+ .back {
+    display: inline-block;
+    position: static;
+    text-align: center;
+    width: 300px;
+    height: 250px;
+    background-color: red;
+    margin-left: 110px;
+    border-radius:15px;
+    margin-top: 30px;
+ }
+  
+
+footer{
+    background-color: rgb(37, 36, 36);
+    height: 10vh;
+    margin-top: 237px;
+}
+
+p{
+    text-align: center;
+    color: white;
+    justify-content: center;
+    padding-top: 40px;
+
+}
+
+.tweb{
+    color: white;
+}
+
+.tweb:hover{
+    color: aqua;
+}
+.txtweb{
+    color: white;
+}
+
+.txtweb:hover{
+    color: aqua;
+}
